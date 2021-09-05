@@ -1,0 +1,16 @@
+HERE IS THE SOLUTION..
+def TaskExecution(self):
+        wish()
+        if 1:
+            self.query = self.takecommand()
+
+
+        if "open notepad" in self.query:
+            npath = "C:\\WINDOWS\\system32\\notepad.exe"
+            os.startfile(npath) 
+
+        elif "close notepad" in self.query:
+            speak("okay mam, closing notepad")
+            os.system("taskkill /f /im notepad.exe")
+I M USING IF 1 INSEAD OF WHILE.....            
+            
